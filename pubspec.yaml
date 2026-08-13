@@ -1,0 +1,95 @@
+name: interknot_auth_flutter
+description: "绳网认证 InterKnot_Auth - Flutter 跨平台校园网认证客户端"
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # === 状态管理 ===
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # === 路由 ===
+  go_router: ^14.2.0
+
+  # === 网络 ===
+  dio: ^5.7.0
+
+  # === 加密 ===
+  pointycastle: ^3.9.1
+  encrypt: ^5.0.3
+  crypto: ^3.0.6
+
+  # === 本地存储 ===
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+
+  # === 桌面/系统集成 ===
+  window_manager: ^0.4.2
+  tray_manager: ^0.2.3
+  launch_at_startup: ^0.3.1
+  win32: ^5.5.1
+  ffi: ^2.1.3
+
+  # === 进程调用 ===
+  process_run: ^1.2.0
+
+  # === 网络/连通性 ===
+  connectivity_plus: ^6.0.5
+  url_launcher: ^6.3.0
+
+  # === 数据/序列化 ===
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  collection: ^1.18.0
+  async: ^2.11.0
+  intl: ^0.20.2
+
+  # === UI ===
+  fl_chart: ^0.69.0
+  dynamic_color: ^1.7.0
+
+  # === 信息/更新 ===
+  package_info_plus: ^8.0.0
+  device_info_plus: ^10.1.0
+  http: ^1.2.2
+
+  # === 并发安全 ===
+  synchronized: ^3.3.0
+
+  # === 平台分支：移动端 OCR ===
+  google_mlkit_text_recognition: ^0.14.0
+
+  # === 桌面端 WebUI（可选保留） ===
+  shelf: ^1.4.1
+  shelf_router: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/bin/
+  # 字体暂未就绪，M2 阶段启用
+  # fonts:
+  #   - family: InterKnotIcon
+  #     fonts:
+  #       - asset: assets/fonts/InterKnotIcon.ttf

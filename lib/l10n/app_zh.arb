@@ -1,0 +1,832 @@
+{
+  "@@locale": "zh",
+  "appTitle": "绳网认证",
+  "@appTitle": {
+    "description": "应用标题"
+  },
+  "appTitleVersion": "绳网认证 2.0",
+  "@appTitleVersion": {
+    "description": "带版本号的应用标题"
+  },
+  "appVersion": "v2.0.0",
+  "@appVersion": {
+    "description": "版本号字符串"
+  },
+  "ok": "确定",
+  "@ok": {
+    "description": "确定按钮"
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "取消按钮"
+  },
+  "confirm": "确认",
+  "@confirm": {
+    "description": "确认按钮"
+  },
+  "exit": "退出",
+  "@exit": {
+    "description": "退出按钮"
+  },
+  "delete": "删除",
+  "@delete": {
+    "description": "删除按钮"
+  },
+  "save": "保存",
+  "@save": {
+    "description": "保存按钮"
+  },
+  "clear": "清除",
+  "@clear": {
+    "description": "清除按钮"
+  },
+  "add": "添加",
+  "@add": {
+    "description": "添加按钮"
+  },
+  "stop": "停止",
+  "@stop": {
+    "description": "停止按钮"
+  },
+  "logout": "登出",
+  "@logout": {
+    "description": "登出按钮"
+  },
+  "alreadyRunningTitle": "程序已在运行",
+  "@alreadyRunningTitle": {
+    "description": "多开检测对话框标题"
+  },
+  "alreadyRunningContent": "绳网认证已在运行中，请检查系统托盘。",
+  "@alreadyRunningContent": {
+    "description": "多开检测对话框内容"
+  },
+  "confirmExitTitle": "确认退出",
+  "@confirmExitTitle": {
+    "description": "退出确认对话框标题"
+  },
+  "confirmExitContent": "确定要退出绳网认证吗？\n退出后网络认证将断开。",
+  "@confirmExitContent": {
+    "description": "退出确认对话框内容"
+  },
+  "appExitLog": "绳网认证 2.0 退出",
+  "@appExitLog": {
+    "description": "退出日志消息"
+  },
+  "appStartLog": "绳网认证 2.0 启动完成",
+  "@appStartLog": {
+    "description": "启动日志消息"
+  },
+  "systemInitComplete": "M4 系统集成初始化完成",
+  "@systemInitComplete": {
+    "description": "系统集成初始化完成日志"
+  },
+  "autoStartConfigured": "开机自启已配置",
+  "@autoStartConfigured": {
+    "description": "开机自启配置完成日志"
+  },
+  "migrationChecking": "数据迁移检查中...",
+  "@migrationChecking": {
+    "description": "数据迁移检查日志"
+  },
+  "alreadyRunningDetected": "检测到已有实例在运行",
+  "@alreadyRunningDetected": {
+    "description": "多开检测日志"
+  },
+  "watchdogAutoStart": "看门狗已配置为启用，自动启动",
+  "@watchdogAutoStart": {
+    "description": "看门狗自动启动日志"
+  },
+  "account": "账号",
+  "@account": {
+    "description": "账号输入框标签"
+  },
+  "password": "密码",
+  "@password": {
+    "description": "密码输入框标签"
+  },
+  "login": "登录",
+  "@login": {
+    "description": "登录按钮"
+  },
+  "logoff": "下线",
+  "@logoff": {
+    "description": "下线按钮"
+  },
+  "processing": "处理中...",
+  "@processing": {
+    "description": "处理中状态文本"
+  },
+  "rememberPassword": "记住密码",
+  "@rememberPassword": {
+    "description": "记住密码复选框"
+  },
+  "autoLogin": "自动登录",
+  "@autoLogin": {
+    "description": "自动登录复选框"
+  },
+  "watchdog": "看门狗",
+  "@watchdog": {
+    "description": "看门狗复选框"
+  },
+  "autoShare": "自动共享",
+  "@autoShare": {
+    "description": "自动共享复选框"
+  },
+  "tMode": "t模式",
+  "@tMode": {
+    "description": "t模式复选框"
+  },
+  "pleaseEnterAccount": "请输入账号",
+  "@pleaseEnterAccount": {
+    "description": "账号为空提示"
+  },
+  "pleaseEnterPassword": "请输入密码",
+  "@pleaseEnterPassword": {
+    "description": "密码为空提示"
+  },
+  "deleteAccount": "删除账号",
+  "@deleteAccount": {
+    "description": "删除账号对话框标题"
+  },
+  "deleteAccountTitle": "删除账号",
+  "@deleteAccountTitle": {
+    "description": "删除账号对话框标题"
+  },
+  "accountDeleted": "已删除账号",
+  "@accountDeleted": {
+    "description": "账号删除成功提示"
+  },
+  "logTitle": "日志",
+  "@logTitle": {
+    "description": "日志区域标题"
+  },
+  "noLogs": "暂无日志",
+  "@noLogs": {
+    "description": "无日志占位文本"
+  },
+  "clearLogs": "清空日志",
+  "@clearLogs": {
+    "description": "清空日志按钮"
+  },
+  "ready": "就绪",
+  "@ready": {
+    "description": "状态栏就绪文本"
+  },
+  "multilogin": "多拨",
+  "@multilogin": {
+    "description": "多拨入口按钮提示"
+  },
+  "settings": "设置",
+  "@settings": {
+    "description": "设置入口按钮提示"
+  },
+  "multiloginTitle": "多拨管理",
+  "@multiloginTitle": {
+    "description": "多拨页面标题"
+  },
+  "addTab": "添加 tab",
+  "@addTab": {
+    "description": "添加 tab 按钮提示"
+  },
+  "addMultilogin": "添加多拨",
+  "@addMultilogin": {
+    "description": "添加多拨按钮"
+  },
+  "loginAll": "全部登录",
+  "@loginAll": {
+    "description": "全部登录按钮"
+  },
+  "loggingIn": "登录中...",
+  "@loggingIn": {
+    "description": "登录中状态文本"
+  },
+  "logoutAll": "全部登出",
+  "@logoutAll": {
+    "description": "全部登出按钮"
+  },
+  "successCount": "成功",
+  "@successCount": {
+    "description": "成功计数标签"
+  },
+  "failCount": "失败",
+  "@failCount": {
+    "description": "失败计数标签"
+  },
+  "successFailFormat": "成功: {success} | 失败: {fail}",
+  "@successFailFormat": {
+    "description": "成功/失败计数格式",
+    "placeholders": {
+      "success": {},
+      "fail": {}
+    }
+  },
+  "noMultiloginConfig": "暂无多拨配置",
+  "@noMultiloginConfig": {
+    "description": "多拨空状态文本"
+  },
+  "addMultiloginHint": "点击下方按钮添加多拨 tab",
+  "@addMultiloginHint": {
+    "description": "多拨空状态提示"
+  },
+  "loginResults": "登录结果汇总",
+  "@loginResults": {
+    "description": "登录结果汇总标题"
+  },
+  "successRate": "成功 {success} / 失败 {fail}",
+  "@successRate": {
+    "description": "成功/失败统计",
+    "placeholders": {
+      "success": {},
+      "fail": {}
+    }
+  },
+  "addMultiloginDialog": "添加多拨",
+  "@addMultiloginDialog": {
+    "description": "添加多拨对话框标题"
+  },
+  "ipAddress": "IP 地址",
+  "@ipAddress": {
+    "description": "IP 地址输入框标签"
+  },
+  "ipAddressHint": "如 10.10.10.xxx",
+  "@ipAddressHint": {
+    "description": "IP 地址输入提示"
+  },
+  "pleaseFillIpOrAccount": "请至少填写 IP 或账号",
+  "@pleaseFillIpOrAccount": {
+    "description": "IP/账号验证提示"
+  },
+  "tabUpdated": "Tab 已更新",
+  "@tabUpdated": {
+    "description": "Tab 更新成功提示"
+  },
+  "confirmDelete": "确认删除",
+  "@confirmDelete": {
+    "description": "确认删除对话框标题"
+  },
+  "confirmDeleteTab": "确定要删除这个多拨 tab 吗？",
+  "@confirmDeleteTab": {
+    "description": "确认删除 tab 内容"
+  },
+  "confirmLogout": "确认登出",
+  "@confirmLogout": {
+    "description": "确认登出对话框标题"
+  },
+  "confirmLogoutAll": "确定要登出所有多拨 tab 吗？",
+  "@confirmLogoutAll": {
+    "description": "确认登出所有内容"
+  },
+  "settingsTitle": "设置",
+  "@settingsTitle": {
+    "description": "设置页面标题"
+  },
+  "saveSettings": "保存设置",
+  "@saveSettings": {
+    "description": "保存设置按钮提示"
+  },
+  "loginParams": "登录参数",
+  "@loginParams": {
+    "description": "登录参数区块标题"
+  },
+  "portalAddress": "Portal 地址 (esurfingurl)",
+  "@portalAddress": {
+    "description": "Portal 地址输入框标签"
+  },
+  "portalAddressHint": "如 10.10.10.10:8080",
+  "@portalAddressHint": {
+    "description": "Portal 地址提示"
+  },
+  "acIp": "AC IP (wlanacip)",
+  "@acIp": {
+    "description": "AC IP 输入框标签"
+  },
+  "acIpHint": "AC 控制器 IP",
+  "@acIpHint": {
+    "description": "AC IP 提示"
+  },
+  "userIp": "用户 IP (wlanuserip)",
+  "@userIp": {
+    "description": "用户 IP 输入框标签"
+  },
+  "userIpHint": "用户分配 IP",
+  "@userIpHint": {
+    "description": "用户 IP 提示"
+  },
+  "autoFetchParams": "自动获取参数 (189.cn)",
+  "@autoFetchParams": {
+    "description": "自动获取参数按钮"
+  },
+  "manualFetchParams": "手动获取参数",
+  "@manualFetchParams": {
+    "description": "手动获取参数按钮"
+  },
+  "tunnelConfig": "隧道配置 (EasyTier)",
+  "@tunnelConfig": {
+    "description": "隧道配置区块标题"
+  },
+  "sharedKey": "共享密钥",
+  "@sharedKey": {
+    "description": "共享密钥输入框标签"
+  },
+  "sharedKeyHint": "默认: Hello_InterKnot",
+  "@sharedKeyHint": {
+    "description": "共享密钥提示"
+  },
+  "speedLimit": "限速",
+  "@speedLimit": {
+    "description": "限速输入框标签"
+  },
+  "speedLimitHint": "如 10MB/s（留空不限制）",
+  "@speedLimitHint": {
+    "description": "限速提示"
+  },
+  "enableIpv6": "启用 IPv6",
+  "@enableIpv6": {
+    "description": "启用 IPv6 开关"
+  },
+  "enableIpv6Subtitle": "隧道支持 IPv6 地址",
+  "@enableIpv6Subtitle": {
+    "description": "启用 IPv6 副标题"
+  },
+  "enableWebDownload": "启用网页下载",
+  "@enableWebDownload": {
+    "description": "启用网页下载开关"
+  },
+  "enableWebDownloadSubtitle": "外网可通过网页下载共享文件",
+  "@enableWebDownloadSubtitle": {
+    "description": "启用网页下载副标题"
+  },
+  "useCustomConfig": "使用自定义配置",
+  "@useCustomConfig": {
+    "description": "使用自定义配置开关"
+  },
+  "useCustomConfigSubtitle": "使用自定义 toml 配置文件",
+  "@useCustomConfigSubtitle": {
+    "description": "使用自定义配置副标题"
+  },
+  "customConfigPath": "自定义配置路径",
+  "@customConfigPath": {
+    "description": "自定义配置路径输入框标签"
+  },
+  "customConfigPathHint": "toml 文件绝对路径",
+  "@customConfigPathHint": {
+    "description": "自定义配置路径提示"
+  },
+  "configManagement": "配置管理",
+  "@configManagement": {
+    "description": "配置管理区块标题"
+  },
+  "clearAllConfig": "清除所有配置",
+  "@clearAllConfig": {
+    "description": "清除所有配置按钮"
+  },
+  "openConfigDir": "打开配置目录",
+  "@openConfigDir": {
+    "description": "打开配置目录按钮"
+  },
+  "confirmClear": "确认清除",
+  "@confirmClear": {
+    "description": "确认清除对话框标题"
+  },
+  "confirmClearContent": "确定要清除所有配置吗？\n\n这将重置所有设置、登录参数和隧道配置。\n密码数据不会被清除。",
+  "@confirmClearContent": {
+    "description": "确认清除对话框内容"
+  },
+  "settingsSaved": "设置已保存",
+  "@settingsSaved": {
+    "description": "设置保存成功提示"
+  },
+  "saveFailed": "保存失败",
+  "@saveFailed": {
+    "description": "保存失败提示"
+  },
+  "paramsFetchSuccess": "参数获取成功",
+  "@paramsFetchSuccess": {
+    "description": "参数获取成功提示"
+  },
+  "paramsFetchFailed": "获取参数失败",
+  "@paramsFetchFailed": {
+    "description": "参数获取失败提示"
+  },
+  "configCleared": "配置已清除",
+  "@configCleared": {
+    "description": "配置清除成功提示"
+  },
+  "configDir": "配置目录",
+  "@configDir": {
+    "description": "配置目录提示"
+  },
+  "cannotOpenConfigDir": "无法打开配置目录",
+  "@cannotOpenConfigDir": {
+    "description": "无法打开配置目录提示"
+  },
+  "fetchParamsTitle": "获取登录参数",
+  "@fetchParamsTitle": {
+    "description": "获取参数页面标题"
+  },
+  "saveToConfig": "保存到配置",
+  "@saveToConfig": {
+    "description": "保存到配置按钮"
+  },
+  "paramsInfo": "参数获取说明",
+  "@paramsInfo": {
+    "description": "参数获取说明标题"
+  },
+  "paramsInfoContent": "通过访问 189.cn 获取校园网 Portal 参数。\n参数获取成功后可手动编辑并保存到设置。",
+  "@paramsInfoContent": {
+    "description": "参数获取说明内容"
+  },
+  "fetchParamsButton": "获取参数 (189.cn)",
+  "@fetchParamsButton": {
+    "description": "获取参数按钮文本"
+  },
+  "fetchingParams": "正在获取...",
+  "@fetchingParams": {
+    "description": "获取中状态文本"
+  },
+  "connecting189": "正在连接 189.cn...",
+  "@connecting189": {
+    "description": "连接 189.cn 状态"
+  },
+  "fetchSuccess": "参数获取成功！",
+  "@fetchSuccess": {
+    "description": "参数获取成功状态"
+  },
+  "fetchFailed": "获取失败",
+  "@fetchFailed": {
+    "description": "获取失败状态"
+  },
+  "fetchException": "获取异常",
+  "@fetchException": {
+    "description": "获取异常状态"
+  },
+  "portalParams": "Portal 参数",
+  "@portalParams": {
+    "description": "Portal 参数区块标题"
+  },
+  "currentDeviceIp": "当前设备 IP",
+  "@currentDeviceIp": {
+    "description": "当前设备 IP 提示"
+  },
+  "actions": "操作",
+  "@actions": {
+    "description": "操作区块标题"
+  },
+  "clearFields": "清空",
+  "@clearFields": {
+    "description": "清空字段按钮"
+  },
+  "debugInfo": "调试信息",
+  "@debugInfo": {
+    "description": "调试信息区块标题"
+  },
+  "fetchUrl": "获取 URL",
+  "@fetchUrl": {
+    "description": "获取 URL 标签"
+  },
+  "paramsSavedToConfig": "参数已保存到设置",
+  "@paramsSavedToConfig": {
+    "description": "参数已保存提示"
+  },
+  "clearedRetry": "已清空，点击获取按钮重新获取",
+  "@clearedRetry": {
+    "description": "清空后提示"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard 页面标题"
+  },
+  "dashboardDesktopOnly": "Dashboard 仅桌面端可用",
+  "@dashboardDesktopOnly": {
+    "description": "移动端 Dashboard 占位"
+  },
+  "dashboardDesktopHint": "请在桌面端查看 EasyTier 节点状态和流量图表",
+  "@dashboardDesktopHint": {
+    "description": "移动端 Dashboard 提示"
+  },
+  "easytierDashboard": "EasyTier Dashboard",
+  "@easytierDashboard": {
+    "description": "EasyTier Dashboard 标题"
+  },
+  "easytierNotRunning": "EasyTier 未运行",
+  "@easytierNotRunning": {
+    "description": "EasyTier 未运行状态"
+  },
+  "startShare": "启动共享",
+  "@startShare": {
+    "description": "启动共享按钮"
+  },
+  "running": "运行中",
+  "@running": {
+    "description": "运行中状态"
+  },
+  "shareMode": "共享模式",
+  "@shareMode": {
+    "description": "共享模式标签"
+  },
+  "tunnelMode": "隧道模式",
+  "@tunnelMode": {
+    "description": "隧道模式标签"
+  },
+  "noNodeData": "暂无节点数据",
+  "@noNodeData": {
+    "description": "无节点数据占位"
+  },
+  "networkNodes": "网络节点",
+  "@networkNodes": {
+    "description": "网络节点标题"
+  },
+  "online": "在线",
+  "@online": {
+    "description": "在线状态"
+  },
+  "offline": "离线",
+  "@offline": {
+    "description": "离线状态"
+  },
+  "peers": "对等",
+  "@peers": {
+    "description": "对等标签"
+  },
+  "traffic": "流量",
+  "@traffic": {
+    "description": "流量标签"
+  },
+  "networkTraffic": "网络流量",
+  "@networkTraffic": {
+    "description": "网络流量标题"
+  },
+  "download": "下载",
+  "@download": {
+    "description": "下载标签"
+  },
+  "upload": "上传",
+  "@upload": {
+    "description": "上传标签"
+  },
+  "noTrafficData": "暂无流量数据",
+  "@noTrafficData": {
+    "description": "无流量数据占位"
+  },
+  "peerNodes": "对等节点",
+  "@peerNodes": {
+    "description": "对等节点标题"
+  },
+  "noPeerConnected": "暂无对等节点连接",
+  "@noPeerConnected": {
+    "description": "无对等节点占位"
+  },
+  "endpoint": "端点",
+  "@endpoint": {
+    "description": "端点标签"
+  },
+  "routeTable": "路由表",
+  "@routeTable": {
+    "description": "路由表标题"
+  },
+  "routeDestination": "目标",
+  "@routeDestination": {
+    "description": "路由目标列"
+  },
+  "routeGateway": "网关",
+  "@routeGateway": {
+    "description": "路由网关列"
+  },
+  "routeInterface": "接口",
+  "@routeInterface": {
+    "description": "路由接口列"
+  },
+  "routeMetric": "跃点",
+  "@routeMetric": {
+    "description": "路由跃点列"
+  },
+  "routeStatus": "状态",
+  "@routeStatus": {
+    "description": "路由状态列"
+  },
+  "routeActive": "活跃",
+  "@routeActive": {
+    "description": "路由活跃状态"
+  },
+  "routeInactive": "非活跃",
+  "@routeInactive": {
+    "description": "路由非活跃状态"
+  },
+  "share": "共享",
+  "@share": {
+    "description": "共享页面标题"
+  },
+  "easytierDesktopOnly": "EasyTier 仅桌面端可用",
+  "@easytierDesktopOnly": {
+    "description": "移动端 EasyTier 占位"
+  },
+  "easytierShare": "EasyTier 共享",
+  "@easytierShare": {
+    "description": "EasyTier 共享标题"
+  },
+  "shareRunning": "共享服务运行中",
+  "@shareRunning": {
+    "description": "共享运行中状态"
+  },
+  "shareNotRunning": "共享服务未启动",
+  "@shareNotRunning": {
+    "description": "共享未启动状态"
+  },
+  "shareConfig": "共享配置",
+  "@shareConfig": {
+    "description": "共享配置标题"
+  },
+  "networkKey": "网络密钥",
+  "@networkKey": {
+    "description": "网络密钥输入框标签"
+  },
+  "networkKeyHint": "输入共享密钥",
+  "@networkKeyHint": {
+    "description": "网络密钥提示"
+  },
+  "networkKeyHelper": "客户端需要使用相同密钥连接",
+  "@networkKeyHelper": {
+    "description": "网络密钥帮助文本"
+  },
+  "networkName": "网络名称",
+  "@networkName": {
+    "description": "网络名称标签"
+  },
+  "defaultPort": "默认端口",
+  "@defaultPort": {
+    "description": "默认端口标签"
+  },
+  "virtualIp": "虚拟 IP",
+  "@virtualIp": {
+    "description": "虚拟 IP 标签"
+  },
+  "rpcPort": "RPC 端口",
+  "@rpcPort": {
+    "description": "RPC 端口标签"
+  },
+  "stopShare": "停止共享",
+  "@stopShare": {
+    "description": "停止共享按钮"
+  },
+  "runningLogs": "运行日志",
+  "@runningLogs": {
+    "description": "运行日志标题"
+  },
+  "tunnel": "隧道",
+  "@tunnel": {
+    "description": "隧道页面标题"
+  },
+  "easytierTunnel": "EasyTier 隧道",
+  "@easytierTunnel": {
+    "description": "EasyTier 隧道标题"
+  },
+  "tunnelConnected": "隧道已连接",
+  "@tunnelConnected": {
+    "description": "隧道已连接状态"
+  },
+  "tunnelNotConnected": "隧道未连接",
+  "@tunnelNotConnected": {
+    "description": "隧道未连接状态"
+  },
+  "connectionConfig": "连接配置",
+  "@connectionConfig": {
+    "description": "连接配置标题"
+  },
+  "peerIpAddress": "对端 IP 地址",
+  "@peerIpAddress": {
+    "description": "对端 IP 输入框标签"
+  },
+  "peerIpHint": "输入服务器 IP 地址",
+  "@peerIpHint": {
+    "description": "对端 IP 提示"
+  },
+  "peerIpHelper": "EasyTier 服务端的 IP 地址",
+  "@peerIpHelper": {
+    "description": "对端 IP 帮助文本"
+  },
+  "networkKeyMustMatch": "需要与服务端配置的密钥一致",
+  "@networkKeyMustMatch": {
+    "description": "密钥一致性提示"
+  },
+  "disconnectTunnel": "断开隧道",
+  "@disconnectTunnel": {
+    "description": "断开隧道按钮"
+  },
+  "connectTunnel": "连接隧道",
+  "@connectTunnel": {
+    "description": "连接隧道按钮"
+  },
+  "pleaseEnterPeerIp": "请输入对端 IP 地址",
+  "@pleaseEnterPeerIp": {
+    "description": "对端 IP 为空提示"
+  },
+  "tunnelInfo": "隧道信息",
+  "@tunnelInfo": {
+    "description": "隧道信息标题"
+  },
+  "tunnelLogs": "隧道日志",
+  "@tunnelLogs": {
+    "description": "隧道日志标题"
+  },
+  "watchdogNotEnabled": "看门狗: 未启用",
+  "@watchdogNotEnabled": {
+    "description": "看门狗未启用状态"
+  },
+  "watchdogChecking": "检测中...",
+  "@watchdogChecking": {
+    "description": "看门狗检测中状态"
+  },
+  "watchdogRunning": "看门狗: 运行中",
+  "@watchdogRunning": {
+    "description": "看门狗运行中状态"
+  },
+  "watchdogDisconnected": "看门狗: 已断开",
+  "@watchdogDisconnected": {
+    "description": "看门狗已断开状态"
+  },
+  "watchdogUnknown": "看门狗: 未知",
+  "@watchdogUnknown": {
+    "description": "看门狗未知状态"
+  },
+  "watchdogEnable": "点击启用看门狗",
+  "@watchdogEnable": {
+    "description": "启用看门狗提示"
+  },
+  "watchdogDisable": "点击停用看门狗",
+  "@watchdogDisable": {
+    "description": "停用看门狗提示"
+  },
+  "checkingUpdate": "正在检查更新...",
+  "@checkingUpdate": {
+    "description": "检查更新状态"
+  },
+  "appDisabled": "应用已被远程停用，请检查更新",
+  "@appDisabled": {
+    "description": "远程停用提示"
+  },
+  "alreadyLatest": "已是最新版本",
+  "@alreadyLatest": {
+    "description": "已是最新版本状态"
+  },
+  "newVersionFound": "发现新版本 {version}",
+  "@newVersionFound": {
+    "description": "发现新版本状态",
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "networkError": "网络异常",
+  "@networkError": {
+    "description": "网络异常提示"
+  },
+  "checkFailed": "检查失败",
+  "@checkFailed": {
+    "description": "检查失败提示"
+  },
+  "copyAllLogs": "复制全部日志",
+  "@copyAllLogs": {
+    "description": "复制日志按钮提示"
+  },
+  "logsCopied": "日志已复制到剪贴板",
+  "@logsCopied": {
+    "description": "日志复制成功提示"
+  },
+  "clearLogs": "清除日志",
+  "@clearLogs": {
+    "description": "清除日志按钮提示"
+  },
+  "migrationComplete": "迁移完成：配置 {config} 项，Secret.dat 账号 {accounts} 个，Cred 账号 {cred} 个",
+  "@migrationComplete": {
+    "description": "迁移完成摘要",
+    "placeholders": {
+      "config": {},
+      "accounts": {},
+      "cred": {}
+    }
+  },
+  "migrationFailed": "迁移失败",
+  "@migrationFailed": {
+    "description": "迁移失败提示"
+  },
+  "migrationSkipped": "已迁移，跳过",
+  "@migrationSkipped": {
+    "description": "迁移跳过提示"
+  },
+  "systemSettings": "系统设置",
+  "@systemSettings": { "description": "系统设置区块标题" },
+  "launchAtStartupTitle": "开机自启",
+  "launchAtStartupSubtitle": "登录 Windows 时自动启动绳网认证",
+  "launchAtStartupNotSupported": "当前平台不支持开机自启（仅桌面端）",
+  "launchAtStartupEnabled": "开机自启已启用",
+  "launchAtStartupDisabled": "开机自启已关闭",
+  "launchAtStartupFailed": "设置开机自启失败",
+  "minimizeToTrayTitle": "关闭时最小化至托盘",
+  "minimizeToTraySubtitle": "关闭窗口时隐藏到系统托盘；关闭后改为直接退出",
+  "minimizeToTrayNotSupported": "当前平台不支持系统托盘",
+  "minimizeToTrayEnabled": "已设置为：关闭时最小化至托盘",
+  "minimizeToTrayDisabled": "已设置为：关闭时直接退出",
+  "minimizeToTrayFailed": "设置失败",
+  "trayShowWindow": "显示主窗口",
+  "trayExit": "退出",
+  "trayQuickExit": "直接退出"
+}
